@@ -1,0 +1,27 @@
+{
+  "name": "hello-gatsby-5",
+  "version": "1.0.0",
+  "description": "Gatsby 5 starter",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-mdx": "^5.1.0",
+    "gatsby-plugin-sitemap": "^6.1.0",
+    "gatsby-source-filesystem": "^5.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
