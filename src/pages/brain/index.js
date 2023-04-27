@@ -33,9 +33,9 @@ export default function BrainPage() {
                     gl.toneMapping = THREE.ACESFilmicToneMapping
                 }}>
 
-                {/* <MyBrainScene2 />
-                <OrbitControls ref={controls} />
-                <EyeAnimation /> */}
+                {/* <MyBrainScene2 /> */}
+                {/* <OrbitControls ref={controls} /> */}
+                {/* <EyeAnimation /> */}
             </Canvas>
             {/* <BrainHtml /> */}
         </div>
