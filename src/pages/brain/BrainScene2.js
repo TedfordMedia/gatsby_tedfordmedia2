@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Html } from '@react-three/drei';
-// import { Brain } from "@components/BrainGltf";
+import { Brain } from "@components/BrainGltf";
 import useSceneStore from '@src/useSceneStore';
 
 const MyBrainScene = () => {
