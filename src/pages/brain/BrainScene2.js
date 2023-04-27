@@ -9,7 +9,7 @@ const MyBrainScene = () => {
 
   return (
     <>
-      {/* <group name="lighting">
+      <group name="lighting">
         <ambientLight intensity={ambientIntensity} />
         <directionalLight position={[27, 59, 27]}
           shadow-mapSize-height={2048}
@@ -22,8 +22,8 @@ const MyBrainScene = () => {
           shadow-camera-right={20} />
       </group>
       <Suspense fallback={<Html>Loading...</Html>}>
-        <Brain decal={false} scale={.1} position={[1, 4, -5]} />
-      </Suspense> */}
+        {/* <Brain decal={false} scale={.1} position={[1, 4, -5]} /> */}
+      </Suspense>
     </>
   );
 };
