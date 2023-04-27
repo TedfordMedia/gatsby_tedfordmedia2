@@ -2,7 +2,7 @@
 import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment, Html, Box } from '@react-three/drei'
-import Layout from "../../components/layoutwidellh"
+import Layout from "@components/layoutwidellh"
 import * as THREE from 'three'
 import MyTools from '../../components/MyTools'
 
