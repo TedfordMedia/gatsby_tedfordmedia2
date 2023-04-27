@@ -141,19 +141,6 @@ export function Brain(props) {
           </group>
         </group>
       </group>
-      {/* <group scale={30} position={[0, 0, 0]}>
-        <mesh castShadow receiveShadow>
-          <Geometry useGroups>
-            <Base>
-              <sphereGeometry args={[0.3, 40, 40]} attach="geometry" />
-              <meshStandardMaterial attach="material" color={'pink'} />
-            </Base>
-            <Subtraction position={[0, 0, 0]}>
-              <boxGeometry args={[.2, 2, .6]} />
-            </Subtraction>
-          </Geometry>
-        </mesh>
-      </group> */}
       {[...shapesOnCanvas]}
     </>
   )
