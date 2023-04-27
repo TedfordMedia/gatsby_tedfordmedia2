@@ -9,7 +9,7 @@ import EyeAnimation from "@components/EyeAnimation";
 import "@styles/styles.css";
 
 export default function BrainPage() {
-    const canvasClicked = useSceneStore((state) => state.canvasClicked);
+    // const canvasClicked = useSceneStore((state) => state.canvasClicked);
     // const controls = useRef();
 
     // useEffect(() => {
@@ -23,7 +23,7 @@ export default function BrainPage() {
             <Canvas
                 shadows
                 camera={{ fov: 42, position: [21, 0, 100] }}
-                onPointerMissed={() => canvasClicked()}
+                // onPointerMissed={() => canvasClicked()}
                 onCreated={({ gl, camera, scene }) => {
                     gl.useLegacyLights = false;
                     scene.background = new THREE.Color(0x000000);
