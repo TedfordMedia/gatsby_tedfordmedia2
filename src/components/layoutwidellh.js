@@ -3,9 +3,11 @@ import "../styles/styles.css"
 
 const Layout = props => {
   return (
-    <div className={'mydiv'}>
-      {props.children}
-    </div>
+    <>
+      <div className={'mydiv'}>
+        {props.children}
+      </div>
+    </>
   )
 }
 
