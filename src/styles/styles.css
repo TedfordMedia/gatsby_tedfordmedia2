@@ -8,6 +8,12 @@ body {
     margin: 0px;
 }
 
+.topicon {
+    height: 100%;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
 #___gatsby,
 #gatsby-focus-wrapper {
     height: 100%;
