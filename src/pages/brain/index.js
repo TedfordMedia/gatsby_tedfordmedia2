@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 // import { OrbitControls } from '@react-three/drei'
 import * as THREE from "three";
-// import MyBrainScene2 from "./BrainScene2";
+import MyBrainScene2 from "./BrainScene2";
 // import BrainHtml from "@components/html/BrainHTML";
 // import useSceneStore from '@src/useSceneStore';
 // import EyeAnimation from "@components/EyeAnimation";
@@ -32,8 +32,9 @@ export default function BrainPage() {
                     gl.shadowMap.autoUpdate = true;
                     gl.toneMapping = THREE.ACESFilmicToneMapping
                 }}>
+
+                <MyBrainScene2 />
             </Canvas>
-            {/* <MyBrainScene2 /> */}
             {/* <OrbitControls ref={controls} /> */}
             {/* <EyeAnimation /> */}
 
