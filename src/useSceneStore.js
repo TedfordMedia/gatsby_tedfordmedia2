@@ -1,4 +1,4 @@
-import create from 'zustand';
+import { create } from 'zustand';
 
 // eslint-disable-next-line prettier/prettier
 let useSceneStore = create(set => ({
