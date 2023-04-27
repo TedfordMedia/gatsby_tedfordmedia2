@@ -20,7 +20,7 @@ export default function BrainPage() {
 
     return (
         <div className={'mydiv'}>
-            {/* <Canvas
+            <Canvas
                 shadows
                 camera={{ fov: 42, position: [21, 0, 100] }}
                 // onPointerMissed={() => canvasClicked()}
@@ -32,7 +32,7 @@ export default function BrainPage() {
                     gl.shadowMap.autoUpdate = true;
                     gl.toneMapping = THREE.ACESFilmicToneMapping
                 }}>
-     </Canvas> */}
+            </Canvas>
             {/* <MyBrainScene2 /> */}
             {/* <OrbitControls ref={controls} /> */}
             {/* <EyeAnimation /> */}
