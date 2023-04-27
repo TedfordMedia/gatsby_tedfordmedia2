@@ -146,4 +146,4 @@ export function Brain(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/TedfordMedia/gatsby_tedfordmedia2/initial-setup-3/static/epilep.glb')
+// useGLTF.preload('https://raw.githubusercontent.com/TedfordMedia/gatsby_tedfordmedia2/initial-setup-3/static/epilep.glb')
