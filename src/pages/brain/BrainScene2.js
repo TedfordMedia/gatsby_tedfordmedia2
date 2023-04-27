@@ -22,7 +22,7 @@ const MyBrainScene = () => {
           shadow-camera-right={20} />
       </group>
       <Suspense fallback={<Html>Loading...</Html>}>
-        <Brain decal={false} scale={.1} position={[1, 4, -5]} />
+        {/* <Brain decal={false} scale={.1} position={[1, 4, -5]} /> */}
       </Suspense>
     </>
   );
