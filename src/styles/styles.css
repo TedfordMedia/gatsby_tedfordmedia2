@@ -1,0 +1,19 @@
+html,
+body,
+#___gatsby {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+    height: 100%;
+}
+
+.mydiv {
+    height: 100%;
+    overflow: hidden;
+}

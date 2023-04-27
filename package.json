@@ -17,11 +17,16 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.5",
+    "@react-three/drei": "^9.66.0",
+    "@react-three/fiber": "^8.12.2",
     "gatsby": "^5.0.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-mdx": "^5.1.0",
     "gatsby-plugin-sitemap": "^6.1.0",
     "gatsby-source-filesystem": "^5.1.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "three": "^0.151.3"
   }
 }

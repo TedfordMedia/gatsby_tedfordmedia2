@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "@react-native-community"
+  ],
+  "plugins": ["react", "react-hooks", "prettier"],
+  "rules": {
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": ["class", "for"]
+      }
+    ],
+    "react/prop-types": 0,
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "prettier/prettier": 0
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "singleQuote": true
+          }
+        ]
+      }
+    }
+  ]
+}
