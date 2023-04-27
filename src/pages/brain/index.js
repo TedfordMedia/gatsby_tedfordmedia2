@@ -10,13 +10,13 @@ import "@styles/styles.css";
 
 export default function BrainPage() {
     const canvasClicked = useSceneStore((state) => state.canvasClicked);
-    const controls = useRef();
+    // const controls = useRef();
 
-    useEffect(() => {
-        if (controls) {
-            useSceneStore.setState({ controls: controls })
-        }
-    }, [controls])
+    // useEffect(() => {
+    //     if (controls) {
+    //         useSceneStore.setState({ controls: controls })
+    //     }
+    // }, [controls])
 
     return (
         <div className={'mydiv'}>
