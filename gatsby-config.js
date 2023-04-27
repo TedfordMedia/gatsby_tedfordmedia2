@@ -12,6 +12,14 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx",
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.svg$/
+        }
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "pages",
@@ -24,7 +32,9 @@ module.exports = {
       options: {
         alias: {
           "@components": path.resolve(__dirname, "src/components"),
+          "@src": path.resolve(__dirname, "src"),
           "@styles": path.resolve(__dirname, "src/styles"),
+          "@images": path.resolve(__dirname, "src/images"),
         },
         extensions: []
       }

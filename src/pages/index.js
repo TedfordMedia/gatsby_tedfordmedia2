@@ -85,6 +85,13 @@ const links = [
       "Laptop test",
     color: "#E95800",
   },
+  {
+    text: "Brain",
+    url: "/brain/",
+    description:
+      "Brain Scene",
+    color: "#E95800",
+  },
 ]
 
 const IndexPage = () => {
