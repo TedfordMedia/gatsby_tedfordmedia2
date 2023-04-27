@@ -8,7 +8,7 @@ import gsap from "gsap";
 import { BrainMarker } from './BrainMarker';
 
 export function Brain(props) {
-  const { nodes, materials } = useGLTF('static/epilep3.glb')
+  const { nodes, materials } = useGLTF('ss.glb')
   const boneOpacity = useSceneStore((state) => state.boneOpacity);
   const skinOpacty = useSceneStore((state) => state.skinOpacty);
   const boneDecal = useSceneStore((state) => state.boneDecal);
@@ -146,4 +146,4 @@ export function Brain(props) {
   )
 }
 
-useGLTF.preload('static/epilep3.glb')
+useGLTF.preload('ss.glb')
